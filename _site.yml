@@ -35,4 +35,4 @@ navbar:
       href: mailto:<aeb0084@auburn.edu>
 output: 
   html_document:
-    theme: flatly 
+    theme: united 

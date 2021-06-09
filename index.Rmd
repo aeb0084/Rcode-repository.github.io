@@ -1,30 +1,24 @@
 ---
-title: "index.rmd"
+title: "R code Repository"
 author: "Abby Beatty"
 date: "6/8/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
+# Welcome!
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+This page also includes the code used to make each figure in my papers. This code is written to be easily adaptable to any data. For the exact code used to produce those figures, see the github associated with those papers below. 
 
-## Including Plots
+### Citations with Corresponding GitHub Links
 
-You can also embed plots, for example:
+>Beatty, AE, E Driessen, MJ Ballen, TS Schwartz, R Graze. 2021. Addressing the unique qualities of upper-level biology CUREs through the integration of skill-building, Integrative and Comparative Biology. https://doi.org/10.1093/icb/icab006. [<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/CURE_SkillBuilding)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+>Beatty, AE, TS Schwartz. 2020. Gene expression of the IGF hormones and IGF binding proteins across time and tissues in a model reptile. Physiological Genomics. https://doi.org/10.1152/physiolgenomics.00059.2020.[<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/IGF-Network-Expression-in-the-Brown-Anole)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+>Beatty, AE, D Mote, TS Schwartz. 2021. Tails of Reproduction: Regenerative and reproductive co-investment leads to subsequent increased offspring size. Journal of Experimental Zoology. https://doi.org/10.1002/jez.2472. [<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/Tails-of-Reproduction)
+
+
+

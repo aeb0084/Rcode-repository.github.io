@@ -12,11 +12,11 @@
 <meta name="author" content="Abby Beatty" />
 
 
-<title>index.rmd</title>
+<title>R code Repository</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -246,102 +246,51 @@ $(document).ready(function () {
         <li>
   <a href="index.html">Home</a>
 </li>
-<li>
-  <a href="TOC.html">Contents</a>
-</li>
-<li>
-  <a href="mini.html">Simulations</a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Module 1
+    Graphics
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="ov1.html">Overview</a>
+      <a href="A_ggbasics.html">ggplot Basic Plots</a>
     </li>
     <li>
-      <a href="t1.1.html">Tutorial 1.1</a>
+      <a href="B_ggadapt.html">ggplot Adaptations</a>
     </li>
     <li>
-      <a href="t1.2.html">Tutorial 1.2</a>
+      <a href="C_gghalves.html">gghalves Plots</a>
     </li>
     <li>
-      <a href="t1.3.html">Tutorial 1.3</a>
+      <a href="D_raincloud.html">Raincloud Plots</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Module 2
+    Working with Data
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="t2.1.html">Tutorial 2.1</a>
+      <a href="E_manipulation.html">Data Format Manipulation</a>
     </li>
     <li>
-      <a href="t2.2.html">Tutorial 2.2</a>
-    </li>
-    <li>
-      <a href="t2.3.html">Tutorial 2.3</a>
+      <a href="F_calculations.html">Data Calculations (ex. Demographics)</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Module 3
+    CFA Analysis
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="t3.1.html">Tutorial 3.1</a>
-    </li>
-    <li>
-      <a href="t3.2.html">Tutorial 3.2</a>
-    </li>
-    <li>
-      <a href="t3.3.html">Tutorial 3.3</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Module 4
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="t4.1.html">Tutorial 4.1</a>
-    </li>
-    <li>
-      <a href="t4.2.html">Tutorial 4.2</a>
-    </li>
-    <li>
-      <a href="t4.3.html">Tutorial 4.3</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Module 5
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="t5.1.html">Tutorial 5.1</a>
-    </li>
-    <li>
-      <a href="t5.2.html">Tutorial 5.2</a>
-    </li>
-    <li>
-      <a href="t5.3.html">Tutorial 5.3</a>
+      <a href="G_CFA.html">Analysis and Loading Calculations</a>
     </li>
   </ul>
 </li>
@@ -351,14 +300,14 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="http://github.com/popgenschwartz">
-    <span class="fas fa-github fa-2x"></span>
+  <a href="mailto:&lt;aeb0084@auburn.edu&gt;">
+    <span class="fas fa-envelope fa-2x"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.schwartzlab-ecoevolutionarygenomics.org/">
-    <span class="fas fa-school fa-2x"></span>
+  <a href="http://github.com/aeb0084">
+    <span class="fab fa-github fa-2x"></span>
      
   </a>
 </li>
@@ -371,31 +320,29 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">index.rmd</h1>
+<h1 class="title toc-ignore">R code Repository</h1>
 <h4 class="author">Abby Beatty</h4>
 <h4 class="date">6/8/2021</h4>
 
 </div>
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
+<div id="welcome" class="section level1">
+<h1>Welcome!</h1>
+<p>This page also includes the code used to make each figure in my papers. This code is written to be easily adaptable to any data. For the exact code used to produce those figures, see the github associated with those papers below.</p>
+<p>Citations for each paper, with link and mention of where to find the gitub link on the Webpage.</p>
+<div id="citations-with-corresponding-github-links" class="section level3">
+<h3>Citations with Corresponding GitHub Links</h3>
+<blockquote>
+<p>Beatty, AE, E Driessen, MJ Ballen, TS Schwartz, R Graze. 2021. Addressing the unique qualities of upper-level biology CUREs through the integration of skill-building, Integrative and Comparative Biology. <a href="https://doi.org/10.1093/icb/icab006" class="uri">https://doi.org/10.1093/icb/icab006</a>. <a href="https://github.com/aeb0084/CURE_SkillBuilding"><i class="fab fa-github fa-lg" style="color: firebrick"></i></a></p>
+</blockquote>
+<blockquote>
+<p>Beatty, AE, TS Schwartz. 2020. Gene expression of the IGF hormones and IGF binding proteins across time and tissues in a model reptile. Physiological Genomics. <a href="https://doi.org/10.1152/physiolgenomics.00059.2020" class="uri">https://doi.org/10.1152/physiolgenomics.00059.2020</a>.<a href="https://github.com/aeb0084/IGF-Network-Expression-in-the-Brown-Anole"><i class="fab fa-github fa-lg" style="color: firebrick"></i></a></p>
+</blockquote>
+<blockquote>
+<p>Beatty, AE, D Mote, TS Schwartz. 2021. Tails of Reproduction: Regenerative and reproductive co-investment leads to subsequent increased offspring size. Journal of Experimental Zoology. <a href="https://doi.org/10.1002/jez.2472" class="uri">https://doi.org/10.1002/jez.2472</a>. <a href="https://github.com/aeb0084/Tails-of-Reproduction"><i class="fab fa-github fa-lg" style="color: firebrick"></i></a></p>
+</blockquote>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="index_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 
