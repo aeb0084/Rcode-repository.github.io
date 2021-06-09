@@ -4,35 +4,36 @@ navbar:
   left:
     - text: "Home" 
       href: index.html
-    - text: "Item 1"
+    - text: "Graphics"
       href: item1.html
       menu:    
-        - text: "subitem 1"
-          href: s1.1.html
-        - text: "subitem 2"
-          href: s1.2.html
-        - text: "subitem 3"
-          href: s1.3.html
-        - text: "subitem 4"
-          href: s1.4.html
-    - text: "Item 2"
+        - text: "ggplot Basic Plots"
+          href: A_ggbasics.html
+        - text: "ggplot Adaptations"
+          href: B_ggadapt.html
+        - text: "gghalves Plots"
+          href: C_gghalves.html
+        - text: "Raincloud Plots"
+          href: D_raincloud.html
+    - text: "Working with Data"
       href: item2.html
       menu:    
-        - text: "subitem 1"
-          href: s2.1.html
-        - text: "subitem 2"
-          href: s2.2.html
-        - text: "subitem 3"
-          href: s2.3.html
-        - text: "subitem 4"
-          href: s2.4.html
+        - text: "Data Format Manipulation"
+          href: E_manipulation.html
+        - text: "Data Calculations (ex. Demographics)"
+          href: F_calculations.html
+    - text: "CFA Analysis"
+      href: item3.html
+      menu:    
+        - text: "Analysis and Loading Calculations"
+          href: G_CFA.html
     - text: "Resources"
       href: res.html
   right:
-    - icon: fa-github fa-2x
-      href: http://github.com/aeb0084
-    - icon: fa-envelope fa-lg
+    - icon: fa-envelope fa-2x
       href: mailto:<aeb0084@auburn.edu>
+    - icon: fab fa-github fa-2x
+      href: http://github.com/aeb0084
 output: 
   html_document:
     theme: united 
