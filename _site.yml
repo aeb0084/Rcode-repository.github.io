@@ -34,6 +34,8 @@ navbar:
       href: mailto:<aeb0084@auburn.edu>
     - icon: fab fa-github fa-2x
       href: http://github.com/aeb0084
+    - icon: fab fa-twitter fa-2x
+      href: https://twitter.com/AbbyBeatty4
 output: 
   html_document:
     theme: united 

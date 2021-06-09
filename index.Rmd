@@ -1,24 +1,25 @@
----
-title: "R code Repository"
-author: "Abby Beatty"
-date: "6/8/2021"
-output: html_document
----
 
+# <i class="fab fa-r-project fa-2x"></i> Welcome to my Code Repository!
 
-# Welcome!
+## Introductory Information  
 
+#### This page contains code that I have complited in order to produce particular graphs, or manipulate data as I have published research projects. This is a compilation of code I likely found other places, and I do not own any of the code present. Anyone is free to use it at their convenience, but please be sure to cite the original package designers for any packages loaded to produce your work. You can find these citations in R as you work by typing ` citation("PackageName")` in the command line. 
 
+&nbsp;  
 
-This page also includes the code used to make each figure in my papers. This code is written to be easily adaptable to any data. For the exact code used to produce those figures, see the github associated with those papers below. 
+#### This page also includes the code used to make each figure in my papers. This code is written to be easily adaptable to any data. For the exact code used to produce those figures, see the github associated with those papers below.  
+  
+&nbsp;
+&nbsp;
 
-### Citations with Corresponding GitHub Links
+## Citations with Corresponding GitHub Links
+
+>Beatty, AE, D Mote, TS Schwartz. 2021. Tails of Reproduction: Regenerative and reproductive co-investment leads to subsequent increased offspring size. Journal of Experimental Zoology. https://doi.org/10.1002/jez.2472. [<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/Tails-of-Reproduction)
 
 >Beatty, AE, E Driessen, MJ Ballen, TS Schwartz, R Graze. 2021. Addressing the unique qualities of upper-level biology CUREs through the integration of skill-building, Integrative and Comparative Biology. https://doi.org/10.1093/icb/icab006. [<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/CURE_SkillBuilding)
 
 >Beatty, AE, TS Schwartz. 2020. Gene expression of the IGF hormones and IGF binding proteins across time and tissues in a model reptile. Physiological Genomics. https://doi.org/10.1152/physiolgenomics.00059.2020.[<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/IGF-Network-Expression-in-the-Brown-Anole)
 
->Beatty, AE, D Mote, TS Schwartz. 2021. Tails of Reproduction: Regenerative and reproductive co-investment leads to subsequent increased offspring size. Journal of Experimental Zoology. https://doi.org/10.1002/jez.2472. [<i class="fab fa-github fa-lg" style="color: firebrick"></i>](https://github.com/aeb0084/Tails-of-Reproduction)
 
 
 
