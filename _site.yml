@@ -1,0 +1,38 @@
+name: "TITLE"
+output_dir: "."
+navbar:
+  left:
+    - text: "Home" 
+      href: index.html
+    - text: "Item 1"
+      href: item1.html
+      menu:    
+        - text: "subitem 1"
+          href: s1.1.html
+        - text: "subitem 2"
+          href: s1.2.html
+        - text: "subitem 3"
+          href: s1.3.html
+        - text: "subitem 4"
+          href: s1.4.html
+    - text: "Item 2"
+      href: item2.html
+      menu:    
+        - text: "subitem 1"
+          href: s2.1.html
+        - text: "subitem 2"
+          href: s2.2.html
+        - text: "subitem 3"
+          href: s2.3.html
+        - text: "subitem 4"
+          href: s2.4.html
+    - text: "Resources"
+      href: res.html
+  right:
+    - icon: fa-github fa-2x
+      href: http://github.com/aeb0084
+    - icon: fa-envelope fa-lg
+      href: mailto:<aeb0084@auburn.edu>
+output: 
+  html_document:
+    theme: flatly 
